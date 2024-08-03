@@ -37,7 +37,7 @@ for(var i=0; i<no_of_drum; i++){
 // adding eventlistener to entire document rather than button
 document.addEventListener("keypress", function(event) {
     makeSound(event.key)
-
+    
     buttonanimation(event.key)
 })
 
